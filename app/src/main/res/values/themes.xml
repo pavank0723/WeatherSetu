@@ -1,0 +1,76 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.WeatherSetu" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue_200</item>
+        <item name="colorPrimaryVariant">@color/blue_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/white_lime</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+ <!--    TextAppearances-->
+
+    <style name="Label" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/color_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:layout_marginStart" tools:targetApi="jelly_bean_mr1">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="Label1" parent="@style/Label">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Label2" parent="@style/Label">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Label3" parent="@style/Label">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Label4" parent="@style/Label">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="Label5" parent="@style/Label">
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="Value" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">monospace</item>
+        <item name="fontFamily">@font/nunito_sans_semibold</item>
+        <item name="font">@font/nunito_sans_semibold</item>
+
+    </style>
+
+    <style name="Value1" parent="@style/Value">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Value2" parent="@style/Value">
+        <item name="android:textSize">20sp</item>
+
+    </style>
+
+    <style name="Value3" parent="@style/Value">
+        <item name="android:textSize">22sp</item>
+
+    </style>
+
+    <style name="Value4" parent="@style/Value">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+
+</resources>

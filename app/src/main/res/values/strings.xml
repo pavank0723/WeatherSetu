@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WeatherSetu</string>
+    <string name="app_title_name">Weather सेतु</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="today">Today</string>
+    <string name="next_7_days">Next 7 days</string>
+    <string name="degree">27°</string>
+    <string name="design_develop_by_brsap"><![CDATA[Design & Develop by BRSAP]]></string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="iv_size_description_item">50dp</dimen>
+    <dimen name="iv_size_date_info_icon">180dp</dimen>
+    <dimen name="iv_weather_icon">40dp</dimen>
+    <dimen name="mcv_corner_radius">30dp</dimen>
+    <dimen name="iv_size_20dp">20dp</dimen>
+</resources>
